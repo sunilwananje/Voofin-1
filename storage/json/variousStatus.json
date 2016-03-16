@@ -1,0 +1,112 @@
+{
+   "PO":{
+	"Buyer":{
+		 "0":"Created",
+		 "1":"Pending",
+		 "2":"Internal Reject",
+		 "3":"Accepted",
+		 "4":"Declined",
+		 "5":"Completed"
+		},
+	"Seller":{
+		 "0":"N/A",
+		 "1":"Pending",
+		 "2":"N/A",
+		 "3":"Accepted",
+		 "4":"Declined",
+		 "5":"Completed"
+		},
+	"Bank":{
+		 "0":"N/A",
+		 "1":"N/A",
+		 "2":"N/A",
+		 "3":"N/A",
+		 "4":"N/A",
+		 "5":"N/A"
+		}
+   },
+   "INVOICE":{
+        "Buyer":{
+	         "0":"N/A",
+	         "1":"Submitted",
+	         "2":"N/A",
+	         "3":"Pending Approval",
+	         "4":"Rejected",
+	         "5":"Approved",
+	         "6":"Rejected"
+		},
+	"Seller":{
+	         "0":"Created",
+	         "1":"Submitted",
+	         "2":"Internal Reject",
+	         "3":"Submitted",
+	         "4":"Rejected",
+	         "5":"Approved",
+	         "6":"Rejected"
+		},
+	"Bank":{
+	         "0":"N/A",
+	         "1":"N/A",
+	         "2":"N/A",
+	         "3":"N/A",
+	         "4":"N/A",
+	         "5":"Approved",
+	         "6":"N/A"
+		}
+   },
+   "PI":{
+        "Buyer":{
+	         "0":"Created",
+	         "1":"Submitted",
+	         "2":"Reject"
+		},
+	"Seller":{
+	         "0":"N/A",
+	         "1":"Approved",
+	         "2":"N/A"
+		},
+	"Bank":{
+	         "0":"N/A",
+	         "1":"Approved",
+	         "2":"N/A"
+		}
+   },
+   "DISCOUNTING":{
+	"Buyer":{
+	         "0":"N/A",
+	         "1":"N/A",
+	         "2":"N/A",
+	         "3":"N/A",
+	         "4":"N/A",
+	         "5":"N/A"
+		},
+	"Seller":{
+	         "0":"Created",
+	         "1":"Submitted",
+	         "2":"Submitted",
+	         "3":"Rejected",
+	         "4":"Approved",
+	         "5":"Rejected"
+		},
+	"Bank":{
+	         "0":"N/A",
+	         "1":"Submitted",
+	         "2":"Pending Approval",
+	         "3":"Rejected",
+		     "4":"Approved",
+	         "5":"Rejected"		
+           }
+       },
+  "SYMBOLS":{
+	"Created":"fa fa-pencil fa-xs btn-warning round_btn",
+    "Submitted":"fa fa-check fa-xs round_btn blue_bg_ntf",
+ 	"Internal Reject":"fa fa-thumbs-down fa-xs btn-info round_btn",
+	"Accepted":"fa fa-thumbs-up fa-xs btn-info round_btn",
+	"Declined":"fa fa-thumbs-down fa-xs btn-info round_btn",
+	"Completed":"fa fa-thumbs-up fa-xs btn-info round_btn",
+	"Pending":"fa fa-exclamation-circle fa-lg",
+	"Approved":"fa fa-thumbs-up fa-xs round_btn green_bg_ntf",
+	"Rejected":"fa fa-times fa-xs round_btn red_bg_ntf"	
+  }
+
+}
